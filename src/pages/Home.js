@@ -38,22 +38,22 @@ function AnimatedCode() {
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 py-16 md:py-0">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         {/* Sol Taraf - Kişisel Bilgiler */}
-        <div className="text-left">
+        <div className="text-center md:text-left">
           <div className="flex flex-col">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-              <span className="inline-flex flex-wrap gap-2 justify-start">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6">
+              <span className="inline-flex flex-wrap gap-2 justify-center md:justify-start">
                 <span>Aziz Berat</span>
                 <span>Taştan</span>
               </span>
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8">
               Mobile Development
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="#projects"
               className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition duration-300 text-center"
@@ -67,7 +67,7 @@ const Home = () => {
               İletişime Geç
             </a>
           </div>
-          <div className="mt-8 sm:mt-12 flex flex-wrap gap-4 sm:gap-6">
+          <div className="mt-8 sm:mt-12 flex flex-wrap gap-4 sm:gap-6 justify-center md:justify-start">
             <a
               href="https://github.com/azizberattastan"
               target="_blank"
@@ -75,7 +75,7 @@ const Home = () => {
               className="text-gray-400 hover:text-blue-400 transition duration-300 flex items-center"
             >
               <svg
-                className="w-6 h-6 sm:w-8 sm:h-8 mr-2"
+                className="w-5 h-5 sm:w-6 sm:h-6 mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -94,7 +94,7 @@ const Home = () => {
               className="text-gray-400 hover:text-blue-400 transition duration-300 flex items-center"
             >
               <svg
-                className="w-6 h-6 sm:w-8 sm:h-8 mr-2"
+                className="w-5 h-5 sm:w-6 sm:h-6 mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -111,7 +111,7 @@ const Home = () => {
               className="text-gray-400 hover:text-blue-400 transition duration-300 flex items-center"
             >
               <svg
-                className="w-6 h-6 sm:w-8 sm:h-8 mr-2"
+                className="w-5 h-5 sm:w-6 sm:h-6 mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -125,8 +125,8 @@ const Home = () => {
         </div>
 
         {/* Sağ Taraf - Bilgisayar Ekranları */}
-        <div className="relative">
-          <div className="grid grid-cols-2 gap-4">
+        <div className="relative mt-8 md:mt-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {/* Kod Ekranı - Sol */}
             <div className="bg-gray-800 rounded-lg p-4 shadow-xl">
               <div className="bg-gray-900 rounded p-3 mb-2">
