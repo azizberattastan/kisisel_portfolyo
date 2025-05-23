@@ -43,9 +43,11 @@ const Home = () => {
         {/* Sol Taraf - Kişisel Bilgiler */}
         <div className="text-left">
           <div className="flex flex-col">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 whitespace-nowrap">
-              <span className="inline-block">Aziz Berat</span>
-              <span className="inline-block">Taştan</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
+              <span className="inline-flex flex-wrap gap-2 justify-start">
+                <span>Aziz Berat</span>
+                <span>Taştan</span>
+              </span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8">
               Mobile Development
