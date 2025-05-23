@@ -55,7 +55,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="#projects"
+              href="#portfolio"
               className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition duration-300 text-center"
             >
               Projelerimi Gör
