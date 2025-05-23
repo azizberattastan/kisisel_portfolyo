@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-blue-400"
+              className="text-white hover:text-blue-400 p-2"
             >
               {isOpen ? (
                 <XMarkIcon className="h-6 w-6" />
@@ -55,7 +55,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-800">
+        <div className="md:hidden bg-gray-800 absolute top-16 left-0 right-0 z-50">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {menuItems.map((item) => (
               <button
