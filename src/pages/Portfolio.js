@@ -6,7 +6,7 @@ const Portfolio = () => {
       title: 'Etsy Mağaza Projesi',
       description: 'Online mağaza yönetimi ve ürün takibi konularında işlevsellik sağlayan bir Python projesi. Mağaza yönetimi ve ürün takibi için geliştirilmiş kapsamlı bir çözüm.',
       image: '/images/etsy-project.jpg',
-      technologies: ['Python', 'SQLite', 'Tkinter'],
+      technologies: ['Python', 'SQLite', 'PyQt5'],
       link: 'https://github.com/azizberattastan/Etsy_magaza_projem'
     },
     {
